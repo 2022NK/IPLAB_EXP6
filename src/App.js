@@ -9,7 +9,7 @@ import Contact from './Components/Contact';
 const Navbar = ({ toggleMenu }) => (
   <nav className="bg-gray-800 p-4">
     <div className="container mx-auto flex justify-between items-center">
-      <Link to="/" className="text-white text-xl font-bold">John Doe</Link>
+      <Link to="/" className="text-white text-xl font-bold">Niraj Kothawade</Link>
       <div className="hidden md:flex space-x-4">
         <NavLink to="/">Home</NavLink>
         <NavLink to="/about">About</NavLink>
